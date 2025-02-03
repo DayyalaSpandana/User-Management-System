@@ -1,0 +1,11 @@
+<html>
+    <body>
+        <h1>Update page</h1>
+        <form action="/update" method="POST">
+             <input type="text" th:value="${uname}" name="username">
+            <input type="email" placeholder="Enter new email" name="email">
+            <input type="password" placeholder="Enter new password" name="password">
+            <button type="submit">update</button>
+        </form>
+    </body>
+</html>
